@@ -49,7 +49,7 @@ For VLAN 30 (marketing): --> Router(config-if)#: encapsulation dot1Q 30
  VLAN 30 (marketing): --> Router(config-if)# ip address 192.168.30.1 255.255.255.192
  ```
 
-- Enable each subinterface by typing `no shutdown`.
+- While in interface gigabitethernet0/0 enable the interface by typing `no shutdown` and this while enable the subinterfaces as well.
 
 ### Configuration of Switch:
 - Click on the switch and select "CLI" to access its configuration mode.
